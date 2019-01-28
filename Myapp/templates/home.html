@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+</head>
+<body>
+<h1>HELLO WORLD</h1>
+<form action="/myapp/get/" method="POST">
+	{% csrf_token %}
+Enter ur name<input type="text" name="name">
+<input type="submit" name="">
+</form>
+</body>
+</html>
